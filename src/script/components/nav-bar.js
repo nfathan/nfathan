@@ -13,6 +13,7 @@ class NavBar extends HTMLElement {
             height: 80px;
             width: 100%;
             padding: 0 120px;
+            margin-top: 20px;
         }
         
         .navbar-brand {
@@ -30,13 +31,17 @@ class NavBar extends HTMLElement {
             color: #ffff;
         }
         
+        .navbar-brand img {
+          width: 190px;
+        }
+
         .navbar-menu {
             flex-basis: 70%;
         }
         
         .navbar-list {
             display: flex;
-            line-height: 70px;
+            line-height: 50px;
         }
 
         .navbar-list li {
@@ -88,24 +93,14 @@ class NavBar extends HTMLElement {
             }
         }
         </style>
-
-        <div class="sidebar">
-            <div class="sidebar-menu">
-                <ul class="sidebar-list">
-                    
-                    <li><a class="sidebar-item" onclick="openTab('experience', this, '#58d2b2')" href="#experience">Experience</a></li>
-                    <li><a class="sidebar-item" onclick="openTab('education', this, '#58d2b2')" href="#education">Education</a></li>
-                    <li><a class="sidebar-item" onclick="openTab('PiaCianni', this, '#58d2b2')" href="#PiaCianni">Pia Cianni</a></li>
-                </ul>
-            </div>
-        </div>
         
-        <a href="index.html" class="navbar-brand center">F  /</a>
+        <a href="/" class="navbar-brand center"><img src="./../public/images/nfathan-logo.png" alt="nfathan-logo"> </a>
         <div class="navbar-menu">
             <ul class="navbar-list">
                 
                 <li><a class="navbar-item" onclick="openTab('experience', this, '#f6faff')" href="#">Experience</a></li>
                 <li><a class="navbar-item" onclick="openTab('education', this, '#f6faff')" href="#">Education</a></li>
+                <li><a class="navbar-item" onclick="openTab('contact', this, '#f6faff')" href="#">Contact</a></li>
                 <li><a class="navbar-item" onclick="openTab('PiaCianni', this, '#f6faff')" href="#">PiaCianni</a></li>
             </ul>
         </div>
