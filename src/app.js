@@ -1,4 +1,5 @@
 import './public/images/nfathan.jpg';
+import './public/images/nfathan-logo.png';
 import './public/images/dicoding-quote.jpg';
 import './public/images/css.png';
 import './public/images/html.png';
