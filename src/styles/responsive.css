@@ -1,0 +1,53 @@
+/* tablet ==================== */
+@media (max-width: 1000px) {
+    main {
+        padding:0 30px;
+    }
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .sticky {
+        position: relative;
+    }    
+}
+
+/* smartphone ==================== */
+@media (max-width: 670px) {
+    main {
+        padding:0 15px;
+    }
+
+    .main-content h1 {
+        font-size: 22px;
+    }
+
+    .tab-content-wrapper article {
+        flex: 100%;
+        max-width: 100%;
+        /* padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: lawngreen; */
+    }
+
+    .link {
+        text-align: center;
+    } 
+
+    form .form-control {
+        width: 100%;
+    }
+
+    form .form-control-2 {
+        width: 100%;
+    }
+
+    .varian {
+        flex-direction: column;
+    }
+
+    .varian div {
+        padding-right: 0;
+    }
+}
