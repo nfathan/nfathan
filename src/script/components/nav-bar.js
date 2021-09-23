@@ -18,17 +18,8 @@ class NavBar extends HTMLElement {
         
         .navbar-brand {
             flex-basis: 30%;
-            font-family: "Amsterdam One", fangsong;
-            font-weight: 600;
-            font-size: 52px;    
-            color: #ffff;
-            cursor: pointer;
             line-height: 100px;
             margin: 0;
-        }
-        
-        .navbar-brand:hover {
-            color: #ffff;
         }
         
         .navbar-brand img {
@@ -94,7 +85,7 @@ class NavBar extends HTMLElement {
         }
         </style>
         
-        <a href="/" class="navbar-brand center"><img src="./../public/images/nfathan-logo.png" alt="nfathan-logo"> </a>
+        <div class="navbar-brand center"><img src="./../public/images/nfathan-logo.png" alt="nfathan-logo"> </div>
         <div class="navbar-menu">
             <ul class="navbar-list">
                 
