@@ -30,15 +30,12 @@ class BottomNav extends HTMLElement {
         .bottom-nav-item {
           width: 100%;
           text-align: center;
-          margin: 10px 0;
         }
       }
       
       /* smartphone ==================== */
       @media (max-width: 670px) {
-        .bottom-nav-item {
-          margin: 5px 0;
-        }
+        
       }
 
       /* sidebar ================================ */
@@ -57,7 +54,7 @@ class BottomNav extends HTMLElement {
           display: none;
           z-index: 1;
           width: 300px;
-          height: calc(100% - 60px);
+          height: calc(100% - 50px);
           top: 0;
           left: 0;
           position: fixed;
@@ -129,7 +126,7 @@ class BottomNav extends HTMLElement {
           <button class="menu icon" type="button"> &#9776 </button>
         </div>
         <div class="bottom-nav-item">
-          <a class="home icon" href="/"> &#8962 </a>
+          <a class="home icon" href="index.html"> &#8962 </a>
         </div>
         <div class="bottom-nav-item">
           <button class="contact icon" type="button" onclick="openTab('contact', this, '#f6faff')"> &#128172 </button>
