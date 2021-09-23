@@ -69,7 +69,6 @@ class NavBar extends HTMLElement {
         
             .navbar-brand {
                 flex: auto;
-                font-size: 26px;  
             }
         
             .navbar-menu {
@@ -85,7 +84,7 @@ class NavBar extends HTMLElement {
         }
         </style>
         
-        <div class="navbar-brand center"><img src="./../public/images/nfathan-logo.png" alt="nfathan-logo"> </div>
+        <div class="navbar-brand center"><img src="./public/images/nfathan-logo.png" alt="nfathan-logo"> </div>
         <div class="navbar-menu">
             <ul class="navbar-list">
                 
