@@ -84,7 +84,11 @@ class NavBar extends HTMLElement {
         }
         </style>
         
-        <div class="navbar-brand center"><img src="./public/images/nfathan-logo.png" alt="nfathan-logo"> </div>
+        <div class="navbar-brand center">
+          <a href="index.html">
+            <img src="./public/images/nfathan-logo.png" alt="nfathan-logo"> 
+          </a>
+          </div>
         <div class="navbar-menu">
             <ul class="navbar-list">
                 
