@@ -13,6 +13,7 @@ import './public/images/kuy-masak.png';
 import './public/images/kalkulator.png';
 import './public/images/pia-cianni.png';
 import './public/images/tic-tac-toe.png';
+import './public/images/random-quote-machine.png'
 
 import './styles/style.css';
 import './styles/responsive.css';
